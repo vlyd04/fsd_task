@@ -1,0 +1,22 @@
+body{
+  margin: auto;
+  background-color: aqua;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  border: 2px solid black;
+  margin:50px 400px 50px 400px;
+}
+
+.form-container div{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form-container div label{
+  text-align: start;
+}
